@@ -1,5 +1,5 @@
 '''
-python base_DES.py 
+python base_DES.py --keystream on --vectorstream on --module OFB --mode tri --operation decrypt
 '''
 import argparse
 from pathlib import Path
